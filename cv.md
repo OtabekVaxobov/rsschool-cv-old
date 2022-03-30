@@ -92,3 +92,5 @@ function XO(str) {
 - English \- B1 level<br>
 - Russian \- Native<br>
 - Uzbek \- Native<br>
+
+[<img align="center" alt="rsschool" width="100px"  src="img/rs_school_js.svg" />](https://rs.school/)
