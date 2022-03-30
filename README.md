@@ -1,2 +1,1 @@
-# rsschool-cv
-что то интересное
+https://OtabekVaxobov.github.io/rsschool-cv/cv
