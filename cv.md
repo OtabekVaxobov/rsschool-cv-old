@@ -80,7 +80,6 @@ function XO(str) {
 ### Courses:
 
 - HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/) (completed)<br>
-  ![W3Schools Score](/images/w3schools-score.jpg)<br>
 - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)<br>
 - RS Schools Course "JavaScript/Front-end. Stage 1" (in progress)<br>
 - [FreeCodeCamp](https://www.freecodecamp.org/) "Responsive Web Design" (completed) and <br>
