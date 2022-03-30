@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #fafafa;
+}
+.header {
+  margin-top: 60px;
+}
+
+.container {
+  width: 1040px;
+  margin: 30px auto 0;
+}
+
+.work-link {
+  color: #3867d6;
+}
+.work-link:hover {
+  color: #0f54f7;
+  text-decoration: underline;
+}
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* === Header ==== */
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__title {
+  font-size: 26px;
+}
+
+.sosial-links {
+  font-size: 26px;
+  color: rgba(102, 158, 236, 0.8);
+}
+.sosial-links a:not(:last-child) {
+  margin-right: 10px;
+}
+.sosial-links a:hover {
+  color: #9ab1d1;
+}
+
+/* === Cover Img Section ==== */
+
+.cover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.profile-bg {
+  background: url(./img/bg5.webp) no-repeat center;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  border-radius: 2px;
+  height: 45vh;
+}
+.profile-img {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.966);
+  transition: all 0.2s ease-in-out;
+}
+.profile-img:hover {
+  top: 35px;
+}
+.profile-name {
+  position: absolute;
+  right: 20%;
+  top: 35%;
+}
+.profile-name h2 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+}
+
+.profile-name h4 {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+}
+
+/* =====  ABOUT ===== */
+
+.about {
+  margin-top: 50px;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  border-bottom: 1px solid #c3c9d1;
+}
+
+.title {
+  margin-bottom: 35px;
+  font-size: 28px;
+}
+
+.about__summary p {
+  margin-bottom: 16px;
+}
+
+.about__info-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
+}
+.about__info-item {
+  width: 65%;
+  margin-bottom: 30px;
+}
+.about__info-item--right {
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-top: 50px;
+  padding: 0 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c3c9d1;
+}
+/* == Skills Section ===  */
+
+.skills__item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #94b1df;
+  font-size: 18px;
+}
+.skills__item i {
+  font-size: 28px;
+  color: #6c88cf;
+  margin-left: 5px;
+  width: 35px;
+}
+.skills__item span {
+  margin-left: 5px;
+  font-weight: 900;
+}
+.skills__item a {
+  margin-left: 5px;
+}
+
+/* == Code Section ===  */
+
+pre {
+  background-color: #c0cee2;
+}
+
+/* === EDU SECTION === */
+
+.edu__timeline {
+  border-left: 2px solid #e6e9ed;
+  padding: 1rem 0;
+}
+
+.edu__timeline-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-success {
+  position: relative;
+  margin-left: 31px;
+  border-left: 2px solid #37bc9b;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 2rem;
+}
+
+.edu-head {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+
+.edu-time {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.text-small {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6c757d;
+}
+
+/* ===  FOOTER ====  */
+
+.footer__links {
+  margin: 50px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__links img {
+  width: 150px;
+}
+.footer__links i {
+  font-size: 60px;
+}
+.fa-youtube-square {
+  color: #ff0000;
+}
+.fa-github-alt {
+  color: #000;
+}
+
+.author {
+  margin: 20px 0 50px;
+  text-align: right;
+  color: #0c2461;
+}
+.author a:hover {
+  font-weight: 900;
+}
